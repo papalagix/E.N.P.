@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="it">
+    
+<head>
+<meta charset='UTF-8'>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+<link rel='stylesheet' href='style.css'/>
+
+    <title>E.N.P. (Expose your Nation Project)</title>
+    
+</head>
+
+<body>
+    <table>
+      <caption><strong>Storia Nostra</strong></caption> 
+        <tr>
+            <th>Mafia</th>
+            <th>Massoneria</th>
+            <th>Servizi</th>
+            <th>Politica</th>
+            <th>Stragi</th>
+            <th>Funzionari</th>
+            <th>Imprese</th>
+            <th>Vaticano</th>
+            <th>Terrorismo</th>
+        </tr>
+        
+        <tr>
+            <td class="mafia" id="uno">
+                <ul>
+					<li title="capo dei capi"id="riina" class="spazio">Salvatore Riina</li>
+					<li title="'o sbirro"id="provenzano" class="spazio">Bernardo Provenzano</li>
+                    <li class="spazio" id="mandalari">Pino Mandalari</li>
+                    <li id="spatuzza" class="spazio">Gaspare Spatuzza</li>
+                    <li id="elmo" class="spazio">Alfonso Elmo</li>
+                    <li id="ganci" class="spazio">Raffaele Ganci</li>
+					<li id="gioe" class="spazio">Antonino Gioè</li>
+                    <li id="annacondia" class="spazio">Salvatore Annacondia</li>
+					<li id="cina" class="spazio">Gaetano Cinà</li>
+					<li id="ilardo" class="spazio">Luigi Ilardo</li>
+					<li id="rampulla" class="spazio">Pietro Rampulla</li>
+                </ul>
+            </td>
+                
+            <td class="mafia" id="due">
+                <ul>
+					<li id="gelli" class="spazio">Licio Gelli</li>
+                    <li class="spazio" id="ny">Gran Loggia di NewYork</li>
+                    <li id="iside" class="spazio">Loggia Iside 2</li>
+                    <li id="dimiceli" class="spazio">Piero Di Miceli</li>
+                    <li id="merlo" class="spazio">Franco Merlo</li>
+					<li id="fratres" class="spazio">Corda Fratres</li>
+					<li class="spazio" id="scontrino">Loggia Scontrino</li>
+                </ul>                                              
+            </td>
+
+            <td class="mafia" id="tre">
+                <ul>
+                    <li class="spazio" id="casalone">Piero Egisto Casalone</li>
+                    <li class="spazio" id="contrada">Bruno Contrada</li>
+                    <li class="spazio" id="cervone">Nicola Cervone</li>
+                    <li class="spazio" id="piraino">Rosario Piraino</li>
+                    <li class="spazio" id="cossidente">Antonio Cossidente</li>
+                    <li class="spazio" id="narracci">Lorenzo Narracci</li>  
+                    <li class="spazio" id="scalone">Carmelo Scalone</li>                                     
+                </ul>
+            </td>
+ 
+            <td class="politica" id="quattro">
+                <ul>
+                    <li title="ministro dell'interno" class="spazio" id="mancino">Nicola Mancino</li>
+                    <li class="spazio" id="violante">Luciano Violante</li>
+                    <li class="spazio" id="sanza">Angelo Sanza</li>
+					<li class="spazio" id="scalone2">Filiberto Scalone</li>
+                    <li class="spazio" id="demita">Ciriaco De Mita</li>
+                    <li class="spazio" id="ciancimino">Vito Ciancimino</li>
+                    <li class="spazio" id="fierotti">Michele Fierotti</li>                  
+					<li class="spazio" id="mannino">Calogero Mannino</li>
+					<li id="lima">Salvo Lima</li>
+				</ul>
+            </td>
+
+            <td class="politica" id="cinque">
+                <ul>
+                    <li class="spazio" id="falcone">Giovanni Falcone</li>
+					<li class="spazio" id="borsellino">Paolo Borsellino</li>
+					<li class="spazio" id="fauro">Via Fauro</li>
+					<li class="spazio" id="georgofili">Georgofili</li>
+					<li class="spazio" id="velabro">Velabro</li>
+                </ul>
+            </td>
+            
+            <td class="politica" id="sei">
+                <ul>
+                    <li class="spazio" id="amato">Nicolò Amato</li>
+                    <li class="spazio" id="mori">Mario Mori</li>
+                    <li class="spazio" id="conso">Giovanni Conso</li> 
+					<li class="spazio" id="arcangioli">Giovanni Arcangioli</li>
+                    <li class="spazio" id="maritati">Alberto Maritati</li> 
+					<li class="spazio" id="dedonno">Giuseppe De Donno</li>
+					<li id="tempesta" class="spazio">Roberto Tempesta</li>
+                </ul>
+            </td>
+			
+			<td class="rosso" id="sette">
+                <ul>
+                    <li id="gas">SiciliaGas</li>
+                    <li>Publitalia</li>
+                    <li>Finmeccanica</li>
+                    <li></li>                                       
+                </ul>
+            </td>
+			
+			<td class="rosso" id="otto">
+                <ul>
+                    <li>dissociazione-----</li>
+                    <li>dontestimone</li>
+                    <li></li>
+                    <li></li>                                       
+                </ul>
+            </td>
+			
+			<td class="rosso" id="nove">
+                <ul>
+					<li id="nero" class="spazio">Nero---------</li>
+                    <li>Rosso</li>
+					<li id="fac" class="spazio">Falange Armata Carceraria</li>
+					<li title="Avanguardia Nazionale" id="bellini" class="spazio">Paolo Bellini</li>                                       
+                </ul>
+			</td>
+      
+        </tr>
+    </table>
+<div id="con1" style="color: #E8E8E8">
+	<h2 style="text-align:center">Clicca sul nome per leggere tutto:</h2> 
+</div>
+</body>
+</html>
