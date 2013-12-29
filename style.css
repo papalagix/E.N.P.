@@ -1,0 +1,107 @@
+body {
+	background-color: #000015;
+}
+	
+table {
+	border:3px solid black;
+	font-family: sans-serif;
+	background-color: #E8E8E8; 
+	font-size:15px;
+	width: 100%;
+}
+
+th {
+	border:3px solid black;
+ 	font-family: sans-serif;
+ 	background-color: #E8E8E8;
+ 	font-size: 20px;
+ }
+ 
+.mafia {
+	background-color: darkgreen;
+	color: #F5F5F5;
+}
+
+.rosso {
+	background-color: darkred;
+}
+
+.politica {
+	background-color: #E8E8E8;
+}
+
+td {
+	border:3px solid black;
+	font-family: sans-serif;
+	background-color: #E8E8E8;
+	min-width: 11.1%;
+	vertical-align: top;
+	max-height: 70px;
+}
+
+ul {
+	position: relative;
+	left: -20px;
+	top: 5px;
+	margin: 0px;
+	overflow:auto;
+}
+
+li {
+	line-height:200%;
+	position: relative;
+}
+
+h2 {
+	text-align:center;
+}
+
+#con1 div{
+	font-size:20px;
+	overflow:auto;
+	display:box;
+    box-pack:center;
+}
+
+.spazio {
+	line-height:110%;
+	padding-top:10px;
+}
+
+button {
+	font-size: 23px;
+	padding: 10px 15px;
+	border-radius: 5px;
+	border: 2px solid white;
+}
+
+#azzz{
+	background-color:gray;
+}
+
+#italiano {
+	background-image:url("http://www.iconboom.it/iconboom.it/public/galleria/Bandiere/000088.gif");
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	clear:left;
+	left:350px;
+	position:relative;
+}
+
+#arancio {
+	background-color: #FF6600;
+	float:right;
+	position:inherit;
+}
+
+.riina {
+	background-color: #FF6600;
+}
+
+caption {
+	color: #E8E8E8;
+	font-size: 40px;
+	letter-spacing:50px;
+	word-spacing:-20px;
+	text-align: center;
+}
